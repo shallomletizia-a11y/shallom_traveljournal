@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Travel Journal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <style>
+        body {
+            background-color:rgb(252, 200, 221);
+            margin: 0;
+            font-family:Verdana
+        }
+
+        header {
+            background-color:rgb(131, 179, 194);
+            text-align:center;
+            color:rgb(39, 56, 79);
+            padding: 2em 0;
+        }
+
+        .card-container {
+            padding: 2em;
+            gap: 2em;
+            justify-content: center;
+            display:flex;
+        }
+
+        .card {
+            background:beige;
+            text-align: center;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow:0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 255px;
+            transition: transform Y(0,5);
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card img {
+            width: 100%;
+            height: 185px;
+            object-fit: cover;
+        }
+
+        .card a {
+            font-weight: bold;
+            display: block;
+            padding: 1em;
+            color:darkgoldenrod;
+            text-decoration: none;
+        }
+    </style>
+    
+    <header>
+        <h1>Shallom's Travel Journal</h1>
+        <p>My adventures around Asia during the holidays</p>
+    </header>
+    
+    <main class="card-container">
+        <div class="card">
+            <img src="singapore.jpg" alt="Singapore">
+            <a href="singapore.html">Singapore</a>
+        </div>
+    
+    <div class="card">
+        <img src="malaysia.jpg" alt="Malaysia">
+        <a href="malaysia.html">Malaysia</a>
+    </div>
+
+    <div class="card">
+        <img src="malang.jpg" alt="Malang">
+        <a href="malang.html">Malang</a>
+    </div>
+
+    <div class="card">
+        <img src="bali.jpg" alt="Bali">
+        <a href="bali.html">Bali</a>
+    </div>
+</body>
+</html>

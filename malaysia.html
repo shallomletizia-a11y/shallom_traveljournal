@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malaysia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <style>
+        body {
+            font-family:Verdana;
+            margin: 0;
+            background-color:rgb(252, 200, 221);
+        }
+
+        header {
+            background-color: rgb(131, 179, 194);
+            color:rgb(39, 56, 79);
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            margin: 0 15px;
+            color:rgb(32, 37, 68);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .main-img {
+            display: block;
+            margin: 30px auto;
+            max-width: 80%;
+            border-radius: 10px;
+        }
+
+        .description {
+            text-align: center;
+            font-size: 18px;
+            margin: 20px auto;
+            width: 80%;
+        }
+
+        .photo-grid {
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 20px;
+            padding: 40px;
+            transition: transform 0.3 ease, box-shadow 0.3 ease
+        }
+
+        .photo-grid img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0,0.2);
+        }
+
+    </style>
+    <header>
+        <h1>Malaysia</h1>
+        <p>Exploring Kuala Lumpur, Johor Bahru, and Genting Highlands</p>
+    <nav>
+        <a href="travel_.html">Home</a>
+        <a href="singapore.html">Singapore</a>
+        <a href="malaysia.html">Malaysia</a>
+        <a href="malang.html">Malang</a>
+        <a href="bali.html">Bali</a>
+    </nav>
+    </header>
+
+    <main>
+        <div class="photo-grid">
+            <img src="pavilion.jpg" alt="Pavilion Kuala Lumpur"/>
+            <img src="twin tower.jpg" alt="Twin Tower Malaysia"/>
+            <img src="genting skyworlds park.jpg" alt="Genting Skyworlds Theme Park"/>
+            <img src="awana malaysia.jpg" alt="Resorts World Awana"/>
+            <img src="skytropolis malay.jpg" alt="Skytropolis Indoor Theme Park"/>
+            <img src="cable car.jpg" alt="Cable Car"/>
+        </div>
+        <p class="description">
+            My trip to Malaysia was very fun and memorable, especially visiting the Genting Skyworlds Theme Park, where we get to ride thrilling rides, and riding the Cable Car. All of the activities we did were so enjoyable.
+        </p>
+    </main>
+</body>
+</html>
